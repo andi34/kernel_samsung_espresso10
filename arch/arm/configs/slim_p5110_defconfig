@@ -1,6 +1,6 @@
 #
 # Automatically generated make config: don't edit
-# Linux/arm 3.0.31 Kernel Configuration
+# Linux/arm 3.0.101 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -2411,13 +2411,14 @@ CONFIG_GENERIC_ACL=y
 # CONFIG_UDF_FS is not set
 
 #
-# DOS/FAT/NT Filesystems
+# DOS/FAT/exFAT/NT Filesystems
 #
 CONFIG_FAT_FS=y
 CONFIG_MSDOS_FS=y
 CONFIG_VFAT_FS=y
 CONFIG_FAT_DEFAULT_CODEPAGE=437
 CONFIG_FAT_DEFAULT_IOCHARSET="iso8859-1"
+CONFIG_EXFAT_FS=y
 # CONFIG_NTFS_FS is not set
 
 #
